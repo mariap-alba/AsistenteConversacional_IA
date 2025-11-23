@@ -5,7 +5,11 @@ from langchain_ollama.llms import OllamaLLM
 logger = get_logger("Query Response")
 
 class QueryResponse():
+    
     def __init__(self):
+        """
+        Se inicia el modelo generativo Open Source Ollama
+        """
         try:
             self.collection = "data"
             self.vectordb = "app/database/.chroma"
@@ -15,7 +19,14 @@ class QueryResponse():
         except Exception as e:
             logger.error(f"Error inicializando modelo Open Source: {e}")
 
+
+    
     def retriver(self, query_user: str , n_result: int = 4):
+        """
+        Se realiza la busqueda en la base de datos vectorial ChromaDB a partir de la consulta ingresada por el usuario.
+        Extrae el documento, los metadatos y la distancia (similitud coseno).
+        Si la distancia es menor significa que coincide.
+        """
         client = chromadb.PersistentClient(path=self.vectordb)        
         collection = client.get_collection(name=self.collection)
         
@@ -63,22 +74,7 @@ class QueryResponse():
         # Construir contexto
         context_chunks = [doc["document"] for doc in retrieved_docs]
         context = "\n\n====================\n\n".join(context_chunks)
-        #print(context)
         
-        # Prompt estilo Azure adaptado a Ollama
-        # system_prompt = (
-        #     "Eres un asistente que responde EXCLUSIVAMENTE con el CONTEXTO dado. "
-        #     "Si algo no está en el contexto, di que no hay información suficiente. "
-        #     "Responde claro y breve en español."
-        # )
-
-        # user_prompt = (
-        #     f"Pregunta del usuario: {query_user}\n\n"
-        #     f"Contexto:\n{context}\n\n"
-        #     "Instrucción: Responde únicamente usando el contexto."
-        # )
-
-        # prompt_final = f"{system_prompt}\n\n{user_prompt}"
         PROMPT = f"""
             Responde ÚNICAMENTE usando el siguiente CONTEXTO.
             No inventes. Si la respuesta NO está en el contexto, di exactamente:
@@ -102,12 +98,10 @@ class QueryResponse():
 
             RESPUESTA:
             """
-
-        print(PROMPT)
         try:
             
             respuesta = self.llm.invoke(PROMPT)
-            logger.info("Respuesta generada correctamente.")
+            logger.info("====== Respuesta generada correctamente. =====")
             return respuesta
         except Exception as e:
             logger.error(f"Error usando OllamaLLM: {e}")
