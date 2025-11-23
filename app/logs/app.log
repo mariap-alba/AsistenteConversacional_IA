@@ -502,3 +502,8 @@
 2025-11-23 14:07:03,355 - Query Response - INFO - ====== Respuesta generada correctamente. =====
 2025-11-23 14:07:03,358 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 14:07:03] "POST /ask HTTP/1.1" 200 -
 2025-11-23 14:20:28,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading
+2025-11-23 14:20:33,136 - werkzeug - INFO -  * Restarting with stat
+2025-11-23 14:20:47,623 - werkzeug - WARNING -  * Debugger is active!
+2025-11-23 14:20:47,638 - werkzeug - INFO -  * Debugger PIN: 141-444-011
+2025-11-23 14:21:15,907 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 14:21:15] "GET /health HTTP/1.1" 200 -
+2025-11-23 15:31:33,301 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading

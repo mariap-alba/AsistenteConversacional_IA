@@ -30,7 +30,10 @@ def ask():
 
 @response_bp.route('/health', methods=['GET'])
 def health():
-
+    """
+    API GET/health 
+    Verificar la conexion
+    """ 
     return jsonify({
         "status": "OK"
     })
