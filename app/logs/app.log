@@ -1,0 +1,388 @@
+2025-11-22 16:30:24,185 - ingestion - ERROR - No existe el archivo Guia_de_instalacion_Tailwind
+2025-11-22 16:31:00,744 - ingestion - ERROR - No existe el archivo Guia_de_instalacion_Tailwind.pdf
+2025-11-22 16:42:59,331 - Ingestion PDF - INFO - Generando chunks
+2025-11-22 16:48:19,034 - Ingestion PDF - INFO - Generando chunks
+2025-11-22 19:49:57,006 - Ingestion PDF - INFO - Generando chunks
+2025-11-22 19:49:57,224 - Ingestion PDF - INFO - Se generaron 4 chunks
+2025-11-22 19:51:18,870 - Ingestion PDF - INFO - Generando chunks
+2025-11-22 19:51:18,870 - Ingestion PDF - INFO - Se generaron 4 chunks
+2025-11-22 20:56:57,595 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 20:56:57,595 - Ingestion PDF - INFO - Chunks generados 4
+2025-11-22 20:56:57,658 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:03:54,377 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 21:03:54,384 - Ingestion PDF - INFO - Chunks generados 4
+2025-11-22 21:03:54,458 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:03:54,730 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:03:57,182 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 21:03:57,303 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 21:03:58,208 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 21:09:21,281 - Query Response - ERROR - Error inicializando modelo Open Source: 'module' object is not callable
+2025-11-22 21:09:21,506 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:09:21,726 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:09:23,978 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:09:23,978 - Query Response - INFO -   - Doc 1: Distancia = 0.4601, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:09:23,978 - Query Response - INFO -   - Doc 2: Distancia = 0.4979, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:09:23,994 - Query Response - INFO -   - Doc 3: Distancia = 0.5485, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:09:23,994 - Query Response - INFO -   - Doc 4: Distancia = 0.7036, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:11:32,247 - Query Response - INFO - Modelo open-source 'llama3' inicializado correctamente con Ollama
+2025-11-22 21:15:42,354 - Query Response - INFO - Modelo open-source 'llama3' inicializado correctamente con Ollama
+2025-11-22 21:15:42,414 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:15:42,638 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:15:44,866 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:15:44,868 - Query Response - INFO -   - Doc 1: Distancia = 0.4601, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:15:44,868 - Query Response - INFO -   - Doc 2: Distancia = 0.4979, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:15:44,868 - Query Response - INFO -   - Doc 3: Distancia = 0.5485, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:15:44,868 - Query Response - INFO -   - Doc 4: Distancia = 0.7036, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:15:44,868 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:15:46,276 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-11-22 21:15:46,284 - Query Response - ERROR - Error usando OllamaLLM: model requires more system memory (4.6 GiB) than is available (1.4 GiB) (status code: 500)
+2025-11-22 21:21:55,798 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:21:55,846 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:21:56,051 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:21:58,520 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:21:58,520 - Query Response - INFO -   - Doc 1: Distancia = 0.4601, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:21:58,520 - Query Response - INFO -   - Doc 2: Distancia = 0.4979, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:21:58,520 - Query Response - INFO -   - Doc 3: Distancia = 0.5485, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:21:58,520 - Query Response - INFO -   - Doc 4: Distancia = 0.7036, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:21:58,520 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:22:34,168 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:22:37,349 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:29:38,169 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:29:38,216 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:29:38,454 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:29:40,735 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:29:40,735 - Query Response - INFO -   - Doc 1: Distancia = 0.4601, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:29:40,735 - Query Response - INFO -   - Doc 2: Distancia = 0.4979, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:29:40,737 - Query Response - INFO -   - Doc 3: Distancia = 0.5485, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:29:40,737 - Query Response - INFO -   - Doc 4: Distancia = 0.7036, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:29:40,737 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:30:11,093 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:30:13,998 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:35:32,367 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 21:35:32,367 - Ingestion PDF - INFO - Chunks generados 15
+2025-11-22 21:35:32,436 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:35:32,779 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:35:34,803 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 21:35:34,883 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 21:35:35,726 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 21:36:53,531 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:36:54,028 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:36:54,651 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:36:59,231 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:36:59,231 - Query Response - INFO -   - Doc 1: Distancia = 0.3443, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 2: Distancia = 0.3822, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 3: Distancia = 0.3852, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 4: Distancia = 0.4479, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 5: Distancia = 0.4596, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 6: Distancia = 0.4883, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 7: Distancia = 0.5081, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 8: Distancia = 0.5141, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 9: Distancia = 0.5253, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO -   - Doc 10: Distancia = 0.5306, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:36:59,247 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:37:28,077 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:37:30,608 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:39:50,922 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:39:50,985 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:39:51,080 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:39:53,185 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 1: Distancia = 0.3723, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 2: Distancia = 0.4265, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 3: Distancia = 0.4313, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 4: Distancia = 0.4758, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 5: Distancia = 0.4990, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 6: Distancia = 0.5209, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 7: Distancia = 0.5249, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 8: Distancia = 0.5452, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 9: Distancia = 0.5612, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO -   - Doc 10: Distancia = 0.5703, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:39:53,185 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:40:07,214 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:40:08,992 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:42:48,031 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:42:48,097 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:42:48,316 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:42:50,690 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 1: Distancia = 0.3764, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 2: Distancia = 0.4323, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 3: Distancia = 0.4333, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 4: Distancia = 0.4817, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 5: Distancia = 0.5024, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 6: Distancia = 0.5281, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 7: Distancia = 0.5312, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 8: Distancia = 0.5468, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 9: Distancia = 0.5522, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO -   - Doc 10: Distancia = 0.5750, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:42:50,690 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:42:50,690 - Query Response - INFO - Pregunta ingresada por el usuario:  Para que se utiliza tailwind?
+2025-11-22 21:43:07,764 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:43:23,504 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:52:16,509 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:52:16,573 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:52:16,795 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:52:19,149 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:52:19,149 - Query Response - INFO -   - Doc 1: Distancia = 0.3058, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,149 - Query Response - INFO -   - Doc 2: Distancia = 0.3585, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,150 - Query Response - INFO -   - Doc 3: Distancia = 0.3767, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,150 - Query Response - INFO -   - Doc 4: Distancia = 0.4140, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,150 - Query Response - INFO -   - Doc 5: Distancia = 0.4374, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,150 - Query Response - INFO -   - Doc 6: Distancia = 0.4460, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,150 - Query Response - INFO -   - Doc 7: Distancia = 0.4624, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,151 - Query Response - INFO -   - Doc 8: Distancia = 0.4863, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,151 - Query Response - INFO -   - Doc 9: Distancia = 0.4877, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,151 - Query Response - INFO -   - Doc 10: Distancia = 0.5192, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:52:19,151 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:52:19,152 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Qué es Tailwindcss según la guía?
+2025-11-22 21:52:49,431 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:52:53,996 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:53:33,685 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:53:33,749 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:53:33,860 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:53:35,768 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:53:35,768 - Query Response - INFO -   - Doc 1: Distancia = 0.3271, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,768 - Query Response - INFO -   - Doc 2: Distancia = 0.3455, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 3: Distancia = 0.3633, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 4: Distancia = 0.4384, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 5: Distancia = 0.4546, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 6: Distancia = 0.4709, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 7: Distancia = 0.4973, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 8: Distancia = 0.5089, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 9: Distancia = 0.5382, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO -   - Doc 10: Distancia = 0.5415, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:53:35,770 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:53:35,770 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Qué es Tailwindcss?
+2025-11-22 21:53:49,845 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:53:52,676 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 21:58:02,524 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 21:58:02,733 - Ingestion PDF - INFO - Chunks generados 6
+2025-11-22 21:58:02,788 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:58:03,120 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:58:05,893 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 21:58:05,962 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 21:58:06,899 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 21:58:47,242 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 21:58:47,303 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 21:58:47,461 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 21:58:50,098 - Query Response - INFO - Se encontraron 6 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 1: Distancia = 0.4259, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 2: Distancia = 0.4446, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 3: Distancia = 0.4524, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 4: Distancia = 0.5504, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 5: Distancia = 0.6311, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO -   - Doc 6: Distancia = 0.7142, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 21:58:50,098 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 21:58:50,098 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Qué es Tailwindcss?
+2025-11-22 21:59:13,816 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 21:59:17,393 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:03:09,881 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 22:03:09,881 - Ingestion PDF - INFO - Chunks generados 6
+2025-11-22 22:03:09,935 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:03:10,277 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:03:13,235 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 22:03:13,314 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 22:03:14,459 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 22:04:05,215 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:04:05,267 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:04:05,484 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:04:08,073 - Query Response - INFO - Se encontraron 6 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:04:08,073 - Query Response - INFO -   - Doc 1: Distancia = 0.4259, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,073 - Query Response - INFO -   - Doc 2: Distancia = 0.4446, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,073 - Query Response - INFO -   - Doc 3: Distancia = 0.4524, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,073 - Query Response - INFO -   - Doc 4: Distancia = 0.5504, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,073 - Query Response - INFO -   - Doc 5: Distancia = 0.6311, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,075 - Query Response - INFO -   - Doc 6: Distancia = 0.7142, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:04:08,075 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:04:08,075 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Qué es Tailwindcss?
+2025-11-22 22:04:09,670 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:04:12,981 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:05:55,143 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 22:05:55,143 - Ingestion PDF - INFO - Chunks generados 10
+2025-11-22 22:05:55,189 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:05:55,416 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:05:57,308 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 22:05:57,372 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 22:05:58,426 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 22:06:27,043 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:06:27,075 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:06:27,170 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:06:29,106 - Query Response - INFO - Se encontraron 10 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 1: Distancia = 0.3217, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 2: Distancia = 0.4320, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 3: Distancia = 0.4384, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 4: Distancia = 0.4973, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 5: Distancia = 0.5059, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 6: Distancia = 0.5191, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 7: Distancia = 0.5445, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 8: Distancia = 0.6209, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 9: Distancia = 0.6311, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO -   - Doc 10: Distancia = 0.7142, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:06:29,106 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:06:29,106 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Qué es Tailwindcss?
+2025-11-22 22:06:55,294 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:06:58,550 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:20:16,412 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 22:20:16,727 - Ingestion PDF - INFO - Chunks generados 78
+2025-11-22 22:20:16,791 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:20:17,107 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:20:19,194 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 22:20:19,290 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 22:20:23,883 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 22:23:04,775 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:23:04,846 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:23:04,966 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:23:07,167 - Query Response - INFO - Se encontraron 20 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 1: Distancia = 0.3501, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 2: Distancia = 0.3521, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 3: Distancia = 0.3533, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 4: Distancia = 0.3809, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 5: Distancia = 0.4002, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 6: Distancia = 0.4053, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 7: Distancia = 0.4064, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 8: Distancia = 0.4127, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 9: Distancia = 0.4268, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 10: Distancia = 0.4327, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 11: Distancia = 0.4487, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 12: Distancia = 0.4498, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 13: Distancia = 0.4500, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 14: Distancia = 0.4687, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 15: Distancia = 0.4798, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 16: Distancia = 0.4834, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 17: Distancia = 0.4943, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 18: Distancia = 0.5003, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 19: Distancia = 0.5048, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO -   - Doc 20: Distancia = 0.5098, Archivo = Python.pdf, type = PDF
+2025-11-22 22:23:07,167 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:23:07,167 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Como instalar python?
+2025-11-22 22:24:35,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:25:22,656 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:27:13,774 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:27:13,822 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:27:14,075 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:27:16,477 - Query Response - INFO - Se encontraron 20 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:27:16,477 - Query Response - INFO -   - Doc 1: Distancia = 0.3464, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 2: Distancia = 0.3659, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 3: Distancia = 0.4312, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 4: Distancia = 0.4344, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 5: Distancia = 0.4395, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 6: Distancia = 0.4540, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 7: Distancia = 0.4649, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 8: Distancia = 0.4691, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 9: Distancia = 0.4751, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 10: Distancia = 0.4888, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 11: Distancia = 0.4965, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 12: Distancia = 0.5071, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 13: Distancia = 0.5130, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 14: Distancia = 0.5136, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,486 - Query Response - INFO -   - Doc 15: Distancia = 0.5136, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO -   - Doc 16: Distancia = 0.5211, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO -   - Doc 17: Distancia = 0.5242, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO -   - Doc 18: Distancia = 0.5413, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO -   - Doc 19: Distancia = 0.5469, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO -   - Doc 20: Distancia = 0.5816, Archivo = Python.pdf, type = PDF
+2025-11-22 22:27:16,490 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:27:16,490 - Query Response - INFO - Pregunta ingresada por el usuario:  Instalacion de python
+2025-11-22 22:28:38,381 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:29:12,680 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:39:31,693 - Ingestion PDF - INFO - ===== Generando chunks =====
+2025-11-22 22:39:31,880 - Ingestion PDF - INFO - Chunks generados 6
+2025-11-22 22:39:31,931 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:39:32,324 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:39:38,064 - Ingestion PDF - INFO - ======= Creando coleccion =========
+2025-11-22 22:39:38,181 - Ingestion PDF - INFO - Colección creada con exito
+2025-11-22 22:39:39,106 - Ingestion PDF - INFO - Documento indextado
+2025-11-22 22:41:04,076 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:41:04,111 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:41:04,202 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:41:06,088 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:41:06,088 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:41:06,088 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:41:06,088 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:41:06,088 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:41:06,088 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:41:06,088 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:41:34,180 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:41:35,369 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:42:34,794 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:42:34,858 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:42:35,080 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:42:40,591 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:42:40,591 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:42:40,591 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:42:40,591 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:42:40,591 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:42:40,591 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:42:40,591 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:42:40,936 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:42:49,065 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:47:22,814 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:47:22,903 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:47:23,257 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:47:30,821 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:47:30,822 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:47:30,823 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:47:30,823 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:47:30,823 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:47:30,823 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:47:30,824 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:47:34,631 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:47:35,441 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:51:16,911 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:51:16,959 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:51:17,183 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:51:19,774 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:51:19,774 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:51:19,774 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:51:19,774 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:51:19,774 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:51:19,774 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:51:19,774 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:51:21,994 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:51:22,605 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:53:27,364 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:53:27,410 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:53:27,631 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:53:30,056 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:53:30,056 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:53:30,056 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:53:30,056 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:53:30,056 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:53:30,056 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:53:30,056 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:53:31,168 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:53:31,846 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:54:46,477 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:54:46,524 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:54:46,650 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:54:48,537 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:54:48,537 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:54:48,537 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:54:48,537 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:54:48,537 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:54:48,537 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:54:48,537 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:54:50,183 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:54:53,786 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:55:30,521 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:55:30,553 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:55:30,680 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:55:32,459 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:55:32,459 - Query Response - INFO -   - Doc 1: Distancia = 0.4071, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:55:32,459 - Query Response - INFO -   - Doc 2: Distancia = 0.4283, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:55:32,459 - Query Response - INFO -   - Doc 3: Distancia = 0.4549, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:55:32,459 - Query Response - INFO -   - Doc 4: Distancia = 0.5267, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:55:32,462 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:55:32,462 - Query Response - INFO - Pregunta ingresada por el usuario:  Que es tailwindcss?
+2025-11-22 22:55:51,154 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:55:53,624 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-22 22:57:45,492 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-22 22:57:45,750 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-22 22:57:45,985 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-22 22:57:48,257 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-22 22:57:48,257 - Query Response - INFO -   - Doc 1: Distancia = 0.3591, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:57:48,257 - Query Response - INFO -   - Doc 2: Distancia = 0.4021, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:57:48,257 - Query Response - INFO -   - Doc 3: Distancia = 0.4085, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:57:48,257 - Query Response - INFO -   - Doc 4: Distancia = 0.4691, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-22 22:57:48,257 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-22 22:57:48,257 - Query Response - INFO - Pregunta ingresada por el usuario:  en que contextos de desarrollo se utiliza tailwind?
+2025-11-22 22:58:00,757 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-22 22:58:04,120 - Query Response - INFO - Respuesta generada correctamente.
