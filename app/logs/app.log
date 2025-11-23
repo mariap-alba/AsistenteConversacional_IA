@@ -386,3 +386,25 @@
 2025-11-22 22:57:48,257 - Query Response - INFO - Pregunta ingresada por el usuario:  en que contextos de desarrollo se utiliza tailwind?
 2025-11-22 22:58:00,757 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-11-22 22:58:04,120 - Query Response - INFO - Respuesta generada correctamente.
+2025-11-23 11:51:27,952 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.6:5000
+2025-11-23 11:51:27,952 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-23 11:51:27,952 - werkzeug - INFO -  * Restarting with stat
+2025-11-23 11:51:34,162 - werkzeug - WARNING -  * Debugger is active!
+2025-11-23 11:51:34,509 - werkzeug - INFO -  * Debugger PIN: 141-444-011
+2025-11-23 11:56:37,110 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 11:56:37,319 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-23 11:56:47,692 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-23 11:56:50,287 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 11:56:50,288 - Query Response - INFO -   - Doc 1: Distancia = 0.4259, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 11:56:50,288 - Query Response - INFO -   - Doc 2: Distancia = 0.4446, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 11:56:50,288 - Query Response - INFO -   - Doc 3: Distancia = 0.4524, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 11:56:50,289 - Query Response - INFO -   - Doc 4: Distancia = 0.5504, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 11:56:50,292 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 11:56:50,293 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Que es tailwindcss?
+2025-11-23 11:57:32,228 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 11:57:36,718 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 11:57:36,780 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 11:57:36] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:03:56,580 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading
