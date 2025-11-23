@@ -98,8 +98,7 @@ class QueryResponse():
 
             RESPUESTA:
             """
-        try:
-            
+        try:            
             respuesta = self.llm.invoke(PROMPT)
             logger.info("====== Respuesta generada correctamente. =====")
             return respuesta
