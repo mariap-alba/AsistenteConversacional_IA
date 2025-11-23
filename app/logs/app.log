@@ -408,3 +408,97 @@
 2025-11-23 11:57:36,718 - Query Response - INFO - ====== Respuesta generada correctamente. =====
 2025-11-23 11:57:36,780 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 11:57:36] "POST /ask HTTP/1.1" 200 -
 2025-11-23 12:03:56,580 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading
+2025-11-23 12:03:59,778 - werkzeug - INFO -  * Restarting with stat
+2025-11-23 12:04:11,056 - werkzeug - WARNING -  * Debugger is active!
+2025-11-23 12:04:11,071 - werkzeug - INFO -  * Debugger PIN: 141-444-011
+2025-11-23 12:04:11,691 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:04:11,759 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-23 12:04:23,062 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-23 12:04:25,385 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:04:25,385 - Query Response - INFO -   - Doc 1: Distancia = 0.4259, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:04:25,385 - Query Response - INFO -   - Doc 2: Distancia = 0.4446, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:04:25,385 - Query Response - INFO -   - Doc 3: Distancia = 0.4524, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:04:25,385 - Query Response - INFO -   - Doc 4: Distancia = 0.5504, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:04:25,385 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:04:25,385 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Que es tailwindcss?
+2025-11-23 12:04:57,126 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:04:59,421 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:04:59,456 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:04:59] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:12:24,348 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:12:24,933 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:12:24,933 - Query Response - INFO -   - Doc 1: Distancia = 0.4308, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:12:24,935 - Query Response - INFO -   - Doc 2: Distancia = 0.4506, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:12:24,935 - Query Response - INFO -   - Doc 3: Distancia = 0.4693, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:12:24,935 - Query Response - INFO -   - Doc 4: Distancia = 0.5686, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:12:24,935 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:12:24,935 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Que ventajas ofrece tailwindcss??
+2025-11-23 12:12:53,260 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:12:56,776 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:12:56,776 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:12:56] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:15:41,099 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:15:41,202 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:15:41,203 - Query Response - INFO -   - Doc 1: Distancia = 0.5366, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:15:41,203 - Query Response - INFO -   - Doc 2: Distancia = 0.5708, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:15:41,203 - Query Response - INFO -   - Doc 3: Distancia = 0.5889, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:15:41,203 - Query Response - INFO -   - Doc 4: Distancia = 0.6044, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:15:41,204 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:15:41,204 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Se debe tener en cuenta algunos requisitos de instalación?
+2025-11-23 12:15:59,728 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:16:00,328 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:16:00,328 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:16:00] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:18:43,617 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:18:43,786 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:18:43,786 - Query Response - INFO -   - Doc 1: Distancia = 0.3940, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:18:43,786 - Query Response - INFO -   - Doc 2: Distancia = 0.4113, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:18:43,786 - Query Response - INFO -   - Doc 3: Distancia = 0.4360, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:18:43,786 - Query Response - INFO -   - Doc 4: Distancia = 0.4810, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:18:43,786 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:18:43,786 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Como implemnto tailwindcss?
+2025-11-23 12:19:02,935 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:19:26,988 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:19:26,988 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:19:26] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:20:51,621 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:20:51,696 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:20:51,696 - Query Response - INFO -   - Doc 1: Distancia = 0.2623, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:20:51,697 - Query Response - INFO -   - Doc 2: Distancia = 0.3082, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:20:51,697 - Query Response - INFO -   - Doc 3: Distancia = 0.3487, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:20:51,697 - Query Response - INFO -   - Doc 4: Distancia = 0.3935, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:20:51,697 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:20:51,698 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Que estructura debo seguir para implementar tailwindcss?
+2025-11-23 12:21:03,405 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:21:08,672 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:21:08,674 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:21:08] "POST /ask HTTP/1.1" 200 -
+2025-11-23 12:22:52,421 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 12:22:52,485 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 12:22:52,485 - Query Response - INFO -   - Doc 1: Distancia = 0.5005, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:22:52,486 - Query Response - INFO -   - Doc 2: Distancia = 0.5225, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:22:52,486 - Query Response - INFO -   - Doc 3: Distancia = 0.5240, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:22:52,486 - Query Response - INFO -   - Doc 4: Distancia = 0.5861, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 12:22:52,486 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 12:22:52,487 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿Que contenido debe tener el style.css?
+2025-11-23 12:23:11,360 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 12:23:13,521 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 12:23:13,523 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 12:23:13] "POST /ask HTTP/1.1" 200 -
+2025-11-23 14:05:38,175 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 14:05:38,755 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 14:05:38,756 - Query Response - INFO -   - Doc 1: Distancia = 0.4269, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:05:38,756 - Query Response - INFO -   - Doc 2: Distancia = 0.4287, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:05:38,757 - Query Response - INFO -   - Doc 3: Distancia = 0.5417, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:05:38,757 - Query Response - INFO -   - Doc 4: Distancia = 0.5543, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:05:38,757 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 14:05:38,757 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿como debo configurar el archivo config.js?
+2025-11-23 14:06:13,141 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 14:06:15,571 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 14:06:15,579 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 14:06:15] "POST /ask HTTP/1.1" 200 -
+2025-11-23 14:06:38,266 - Query Response - INFO - Modelo open-source 'llama3.2:1b' inicializado correctamente con Ollama
+2025-11-23 14:06:38,345 - Query Response - INFO - Se encontraron 4 fragmentos relevantes (scores de distancia, menor es mejor):
+2025-11-23 14:06:38,345 - Query Response - INFO -   - Doc 1: Distancia = 0.3163, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:06:38,345 - Query Response - INFO -   - Doc 2: Distancia = 0.3270, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:06:38,346 - Query Response - INFO -   - Doc 3: Distancia = 0.3415, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:06:38,346 - Query Response - INFO -   - Doc 4: Distancia = 0.4258, Archivo = Guia_de_instalacion_Tailwind.pdf, type = PDF
+2025-11-23 14:06:38,346 - Query Response - INFO - --- Paso 2: Generando respuesta con Ollama... ---
+2025-11-23 14:06:38,347 - Query Response - INFO - Pregunta ingresada por el usuario:  ¿como debo configurar el archivo tailwind.config.js?
+2025-11-23 14:06:58,368 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-11-23 14:07:03,355 - Query Response - INFO - ====== Respuesta generada correctamente. =====
+2025-11-23 14:07:03,358 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 14:07:03] "POST /ask HTTP/1.1" 200 -
+2025-11-23 14:20:28,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading
