@@ -507,3 +507,6 @@
 2025-11-23 14:20:47,638 - werkzeug - INFO -  * Debugger PIN: 141-444-011
 2025-11-23 14:21:15,907 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2025 14:21:15] "GET /health HTTP/1.1" 200 -
 2025-11-23 15:31:33,301 - werkzeug - INFO -  * Detected change in 'C:\\Users\\mmalb\\OneDrive\\Documents\\Portafolio MPAG\\AsistenteConversacional_IA\\app\\routers\\response.py', reloading
+2025-11-23 15:31:35,680 - werkzeug - INFO -  * Restarting with stat
+2025-11-23 15:31:51,089 - werkzeug - WARNING -  * Debugger is active!
+2025-11-23 15:31:51,099 - werkzeug - INFO -  * Debugger PIN: 141-444-011
